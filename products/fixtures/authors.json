@@ -1,0 +1,202 @@
+[
+    {
+        "pk": 1,
+        "model": "products.author",
+        "fields": {
+            "first_name": "LIZ",
+            "last_name": "MOORE",
+            "description": "Lizz Schumer is the staff writer for Good Housekeeping, Woman's Day, and Prevention, covering pets, culture, lifestyle, books, and entertainment.",
+            "image": "LIZ-MOORE.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.author",
+        "fields": {
+            "first_name": "MIRANDA ",
+            "last_name": "POPKEY",
+            "description": "MIRANDA POPKEY was born in Santa Cruz, California in 1987. She graduated with a BA in Humanities from Yale in 2009 and with an MFA in Creative Writing from Washington University in St. Louis in 2018. She has written for, among other outlets, The New Republic, The New Yorker's Page-Turner blog, the Paris Review Daily, The Hairpin, The Awl, GQ, and New York magazine's The Cut.",
+            "image": "MIRANDA-POPKEY.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.author",
+        "fields": {
+            "first_name": "STEPHANIE ",
+            "last_name": "WROBEL",
+            "description": "Stephanie Wrobel grew up in Chicago but has been living in the UK for the last three years with her husband and dog, Moose Barkwinkle. She has an MFA from Emerson College and has had short fiction published in Bellevue Literary Review. Before turning to fiction, she worked as a creative copywriter at various advertising agencies.",
+            "image": "STEPHANIE-WROBEL.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.author",
+        "fields": {
+            "first_name": "REBECCA ",
+            "last_name": "SOLNIT",
+            "description": "Rebecca Solnit (born 1961) is an American writer. She has written on a variety of subjects, including feminism, the environment, politics, place, and art.",
+            "image": "REBECCA-SOLNIT.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.author",
+        "fields": {
+            "first_name": "ISABEL ",
+            "last_name": "ALLENDE",
+            "description": "Isabel Allende is a Chilean journalist and author born on August 2, 1942, in Lima, Peru. Her best-known works include the novels The House of the Spirits and City of the Beasts. She has written over 20 books that have been translated into more than 35 languages and sold more than 67 million copies.",
+            "image": "ISABEL-ALLENDE.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.author",
+        "fields": {
+            "first_name": "LILY ",
+            "last_name": "KING",
+            "description": "Lily King grew up in Massachusetts and received her B.A. in English Literature from University of North Carolina at Chapel Hill, and her M.A. in Creative Writing from Syracuse University. She has taught English and Creative Writing at several universities and high schools in this country and abroad. Lily's new novel, Euphoria, was released in June 2014. It has drawn significant acclaim so far, being named an Amazon Book of the Month, on the Indie Next List, and hitting numerous summer reading lists from The Boston Globe to O Magazine and USA Today. ",
+            "image": "LILY-KING.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.author",
+        "fields": {
+            "first_name": "TERRY ",
+            "last_name": "MCMILLAN",
+            "description": "Terry McMillan is the #1 New York Times bestselling author of Waiting to Exhale, How Stella Got Her Groove Back, A Day Late and a Dollar Short, The Interruption of Everything, I Almost Forgot About You, and the editor of Breaking Ice: An Anthology of Contemporary African-American Fiction. Four of Ms. McMillan’s novels have been made into movies: Waiting to Exhale (Twentieth Century Fox, 1995); How Stella Got Her Groove Back (Twentieth Century Fox, 1998); Disappearing Acts (HBO Pictures, 1999); and A Day Late and a Dollar Short (Lifetime, 2014). She lives in California.",
+            "image": "TERRY-MCMILLAN.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.author",
+        "fields": {
+            "first_name": "KIRAN ",
+            "last_name": "MILLWOOD HARGRAVE",
+            "description": "Kiran Millwood Hargrave is a British poet, playwright and novelist. Hargrave started writing for publication in 2009. In 2014, her debut novel The Girl Of Ink and Stars aka The Cartographer's Daughter was bought as part of a six-figure, two-book deal by Knopf Random House, and Chicken House Scholastic.",
+            "image": "KIRAN-MILLWOOD-HARGRAVE.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.author",
+        "fields": {
+            "first_name": "JENNY ",
+            "last_name": "OFFILL",
+            "description": "Jenny Offill is an American author born in Massachusetts. Her first novel Last Things was published in 1999 was a New York Times Notable book and a finalist for the L.A Times First Book Award. She is also the co-editor with Elissa Schappell of two anthologies of essays and the author of several children's books She teaches in the MFA programs at Brooklyn College, Columbia University and Queens University.",
+            "image": "JENNY-OFFILL.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.author",
+        "fields": {
+            "first_name": "NANCY ",
+            "last_name": "BILYEAU",
+            "description": "Nancy is a writer and magazine editor who has worked as an editor at \"Rolling Stone,\" \"InStyle,\" and \"Good Housekeeping.\"",
+            "image": "NANCY-BILYEAU.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.author",
+        "fields": {
+            "first_name": "KILEY ",
+            "last_name": "REID",
+            "description": "Kiley Reid (born 1987) is an American novelist. Her debut novel, Such a Fun Age, was published in December 2019 and was longlisted for the 2020 Booker Prize.",
+            "image": "KILEY-REID.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.author",
+        "fields": {
+            "first_name": "MENG ",
+            "last_name": "JIN",
+            "description": "Meng Jin was born in Shanghai and lives in San Francisco. A Kundiman Fellow, she is a graduate of Harvard and Hunter College. Little Gods is her first novel",
+            "image": "MENG-JIN.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.author",
+        "fields": {
+            "first_name": "KATE ELIZABETH ",
+            "last_name": "RUSSELL",
+            "description": "Kate Elizabeth Russell is an American author. Her debut novel, My Dark Vanessa, was published in 2020 and became a national bestseller.",
+            "image": "KATE-ELIZABETH-RUSSELL.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.author",
+        "fields": {
+            "first_name": "ANNA ",
+            "last_name": "WIENER",
+            "description": "Anna Wiener is an American writer, best known for her 2020 memoir Uncanny Valley. Wiener currently writes for The New Yorker as a tech correspondent.",
+            "image": "ANNA-WIENER.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.author",
+        "fields": {
+            "first_name": "MORGAN ",
+            "last_name": "JERKINS",
+            "description": "Morgan Jerkins is an American writer and editor. Her debut book, This Will Be My Undoing, a collection of nonfiction essays, was a New York Times bestseller. Her second book, Wandering in Strange Lands, was released in August 2020.",
+            "image": "MORGAN-JERKINS.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.author",
+        "fields": {
+            "first_name": "OTTESSA ",
+            "last_name": "MOSHFEGH",
+            "description": "Ottessa Charlotte Moshfegh is an American author and novelist. Her debut novel, Eileen, won the Hemingway Foundation/PEN Award, was shortlisted for the Booker Prize, and was a fiction finalist for the National Book Critics Circle Award.",
+            "image": "OTTESSA-MOSHFEGH.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.author",
+        "fields": {
+            "first_name": "SUE",
+            "last_name": " MONK KIDD",
+            "description": "Sue Monk Kidd is a writer from Sylvester, Georgia, USA, best known for her novels The Secret Life of Bees and The Invention of Wings.",
+            "image": "SUE-MONK-KIDD.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.author",
+        "fields": {
+            "first_name": "SIMONE ",
+            "last_name": "ST. JAMES",
+            "description": "Simone St. James is the award-winning author of The Haunting of Maddy Clare, which won two RITA awards from Romance Writers of America and an Arthur Ellis Award from Crime Writers of Canada.  She wrote her first ghost story, about a haunted library, when she was in high school, and spent twenty years behind the scenes in the television business before leaving to write full-time. She lives in Toronto, Canada with her husband and a spoiled cat. ",
+            "image": "SIMONE-ST-JAMES.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.author",
+        "fields": {
+            "first_name": "AIMEE ",
+            "last_name": "LIU",
+            "description": "Aimee Liu is author of the novels Flash House, Cloud Mountain, and Face. Her nonfiction includes Gaining: The Truth About Life After Eating Disorders, and a memoir, Solitaire.",
+            "image": "AIMEE-LIU.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.author",
+        "fields": {
+            "first_name": "MADELINE ",
+            "last_name": "L'ENGLE",
+            "description": "Madeleine L'Engle Camp was an American writer of fiction, non-fiction, poetry, and young adult fiction, including A Wrinkle in Time and its sequels: A Wind in the Door, A Swiftly Tilting Planet, Many Waters, and An Acceptable Time. Her works reflect both her Christian faith and her strong interest in modern science.",
+            "image": "MADELINE-L'ENGLE.jpg"
+        }
+    }
+]

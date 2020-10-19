@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .models import Product
+# from . import settings
+from django.http import HttpResponse
 
 
 def all_products(request):
@@ -12,3 +14,25 @@ def all_products(request):
     }
 
     return render(request, 'products/products.html', context)
+
+def product_detail(request, product_id):
+    """ A view to show individual product details """
+
+    product = get_object_or_404(Product, pk=product_id)
+
+    context = {
+        'product': product,
+    }
+
+    return render(request, 'products/product_detail.html', context)
+
+
+# def download(request,path):
+#     file_path = os.path.join(settings.MEDIA_ROOT,path)
+#     if os.path.exists(file_path):
+#         with open(file_path, 'rb') as fh:
+#             response = HttpResponse(fh.read(),content_type="application/pdf")
+#             response['Content-Disposition'] = 'inline;filename='+ os.path.basename(file_path)
+#             return response
+
+#     raise HttpResponse

@@ -17,22 +17,36 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
-    name = models.CharField(max_length=254)
-    description = models.TextField()
+    title = models.CharField(max_length=254)
+    author = models.ForeignKey('Author', null=True, blank=True, on_delete=models.SET_NULL)
+    description = models.TextField(max_length=5000)
     price = models.DecimalField(max_digits=6, decimal_places=2)
+    sale_price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
-
-    def __str__(self):
-        return self.name
-
-
-class FilesAdmin(models.Model):
-    adminupload = models.FileField(upload_to='media')
-    title = models.CharField(max_length=50)
+    download = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.title
+
+
+class Author(models.Model):
+    first_name = models.CharField(max_length=254)
+    last_name = models.CharField(max_length=254)
+    description = models.CharField(max_length=5000)
+    image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.last_name
+
+    def get_first_name(self):
+        return self.first_name
+
+# class FilesAdmin(models.Model):
+#     adminupload = models.FileField(upload_to='media')
+#     title = models.CharField(max_length=50)
+
+#     def __str__(self):
+#         return self.title
