@@ -21,6 +21,8 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
+            if sortkey == 'category':
+                sortkey = 'category__name'
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
@@ -68,7 +70,7 @@ def product_detail(request, product_id):
 def author_detail(request, author_id):
     """ A view to show individual author details """
 
-    author = get_object_or_404(Product, pk=author_id)
+    author = get_object_or_404(Author, pk=author_id)
 
     context = {
         'author': author,

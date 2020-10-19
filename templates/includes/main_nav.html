@@ -17,7 +17,7 @@
                 Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="book-link">
-                <a href="" class="dropdown-item">New</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New</a>
                 <a href="" class="dropdown-item">Bestsellers</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Books</a>
             </div>
@@ -43,10 +43,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
