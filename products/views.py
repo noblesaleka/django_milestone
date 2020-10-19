@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from .models import Product
 # from . import settings
 from django.http import HttpResponse
@@ -25,6 +25,18 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def author_detail(request, author_id):
+    """ A view to show individual author details """
+
+    author = get_object_or_404(Product, pk=author_id)
+
+    context = {
+        'author': author,
+    }
+
+    return render(request, 'products/author_detail.html', context)
 
 
 # def download(request,path):

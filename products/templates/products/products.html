@@ -40,7 +40,12 @@
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
+                                            {% if product.price > product.sale_price %}
+                                            <p class="lead mb-0 text-left font-weight-bold"><small><s>${{ product.price }}</s></small></p>
+                                            <p class="lead mb-0 text-left font-weight-bold text-red"><strong>${{ product.sale_price }}</strong></p>
+                                            {% else %}
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            {% endif %}
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
@@ -76,4 +81,5 @@
             </div>
         </div>
     </div>
+    
 {% endblock %}
