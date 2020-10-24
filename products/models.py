@@ -22,7 +22,7 @@ class Product(models.Model):
     author = models.ForeignKey('Author', null=True, blank=True, on_delete=models.SET_NULL)
     description = models.TextField(max_length=5000)
     price = models.DecimalField(max_digits=6, decimal_places=2)
-    sale_price = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    salePrice = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
     rating = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
