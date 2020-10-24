@@ -21,6 +21,7 @@ class Product(models.Model):
     title = models.CharField(max_length=254)
     author = models.ForeignKey('Author', null=True, blank=True, on_delete=models.SET_NULL)
     description = models.TextField(max_length=5000)
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     salePrice = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
     category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
