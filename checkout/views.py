@@ -170,7 +170,7 @@ def checkout_success(request, order_number):
 
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
-        email will be sent to {order.email}.')
+        email and link to download will be sent to {order.email}.')
 
     if 'bag' in request.session:
         del request.session['bag']
