@@ -14,11 +14,62 @@
 
 {% block content %}
     <div class="container-fluid">
-   
+    {% include 'includes/search-bar.html' %}
+    {% include 'includes/mini-search-bar.html' %}
+    </div>
     
 
-
-
-
+    <!-- Product Box -->
+    <div class="container" id="product-box">
+        <h2 class="">Product</h2>
+        <div class="row">
+           {% for product in products %}  
+            <div class="col-md-4">   
+                 
+                <a href="{% url 'product_detail' product.id %}">
+                    <img src="{{ product.image.url }}" class="img-fluid">
+                </a>
+                
+            </div>
+            {% endfor %}
+        </div>
     </div>
+
+    <!-- Category Box -->
+    <div class="container" id="category-box">
+        <h2 class="">Categories</h2>
+        <div class="row">
+           {% for category in categories %}  
+            <div class="col-md-4">   
+                <p>{{ category.name }}</p> 
+                {% if category.image %}
+                        <a href="{% url 'products' %}?category={{ category.name }}">
+                    <img src="{{ category.image.url }}" class="img-fluid">
+                </a>
+                        {% else %}
+                        <a href="{% url 'products' %}?category={{ category.name }}">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ category.name }}">
+                        </a>
+                    {% endif %}
+                
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+   
+
+
+
+
+
+    <div class="container-fluid">
+    
+    </div>
+
+
+
+
+
+
+
 {% endblock %}
